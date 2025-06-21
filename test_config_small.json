@@ -1,0 +1,18 @@
+{
+  "pdf_path": "test_small_document.pdf",
+  "pdf_download_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+  "min_token_length": 10,
+  "page_offset": 0,
+  "num_sentence_chunk_size": 5,
+  "embedding_model_name": "all-MiniLM-L6-v2",
+  "embedding_device": "auto",
+  "llm_model_id": "microsoft/DialoGPT-medium",
+  "use_quantization": true,
+  "llm_device": "auto",
+  "n_resources_to_return": 3,
+  "temperature": 0.7,
+  "max_new_tokens": 256,
+  "embeddings_save_path": "test_embeddings.csv",
+  "verbose": true,
+  "log_level": "INFO"
+}

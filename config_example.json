@@ -1,0 +1,18 @@
+{
+  "pdf_path": "document.pdf",
+  "pdf_download_url": null,
+  "min_token_length": 30,
+  "page_offset": 0,
+  "num_sentence_chunk_size": 10,
+  "embedding_model_name": "all-mpnet-base-v2",
+  "embedding_device": "auto",
+  "llm_model_id": "microsoft/DialoGPT-medium",
+  "use_quantization": true,
+  "llm_device": "auto",
+  "n_resources_to_return": 5,
+  "temperature": 0.7,
+  "max_new_tokens": 512,
+  "embeddings_save_path": "text_chunks_and_embeddings_df.csv",
+  "verbose": true,
+  "log_level": "INFO"
+}
